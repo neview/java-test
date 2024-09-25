@@ -12,7 +12,7 @@ import org.apache.commons.logging.LogFactory;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
 //        System.out.printf("Hello and welcome!");
@@ -168,10 +168,19 @@ public class Main {
 //        logger.fine("美好");
 //        logger.severe("验证");
 
-        Log log = LogFactory.getLog(Main.class);
-        log.info("info");
+//        Log log = LogFactory.getLog(Main.class);
+//        log.info("info");
+
+//        Class stdClass = Student.class;
+//        System.out.println(stdClass.getField("score"));
+//        System.out.println(stdClass.getField("name"));
+//        System.out.println(stdClass.getDeclaredField("age"));
+
+//        Class a = Integer.class.getSuperclass();
+//        System.out.println(a);
 
     }
+
 
 //    static byte[] toGBK(String s){
 //        try{
@@ -271,5 +280,15 @@ public class Main {
 //    public String toString() {
 //        return this.desc;
 //    }
+//}
+
+//class Student extends Person {
+//    public String score;
+//    private String age;
+//}
+
+
+//class Person{
+//    public String name;
 //}
 
